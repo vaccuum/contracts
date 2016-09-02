@@ -1,0 +1,25 @@
+{
+    "license": "MIT",
+    "name": "vaccuum/contracts",
+    "description": "Vaccuum framework contracts.",
+    "keywords": [
+        "vaccuum",
+        "framework",
+        "contracts",
+        "interfaces"
+    ],
+    "authors": [
+        {
+            "name": "Sebastian Łepczyński",
+            "email": "lepczynski.s@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vaccuum\\Contracts\\": "source/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
