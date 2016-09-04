@@ -2,7 +2,10 @@
 
 > Vaccuum framework contracts.
 
-Collection of interfaces required for vaccuum framework.
+This is a vaccuum internal component package, if you
+want to create a project using vaccuum framework please
+refer to the [vaccuum](https://github.com/vaccuum/vaccuum)
+project repository.
 
 ### License
 
