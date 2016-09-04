@@ -1,11 +1,13 @@
 <?php namespace Vaccuum\Contracts\Foundation;
 
+use Symfony\Component\HttpFoundation\Response;
+
 interface IApplication
 {
     /**
-     * Run application & handle the request.
+     * Handle the request.
      *
-     * @return mixed
+     * @return Response
      */
-    public function execute();
+    public function start();
 }
